@@ -1,0 +1,14 @@
+/*
+$primary:       									#ff3838;
+$primary-hover:    									#df1a1a;
+$primary-light:    									#ffe1e1;
+$primary-inverse:  									#FFFFFF;*/
+.error.error-3 .error-title {
+  font-size: 8.7rem !important;
+}
+
+@media (min-width: 768px) {
+  .error.error-3 .error-title {
+    font-size: 15.7rem !important;
+  }
+}

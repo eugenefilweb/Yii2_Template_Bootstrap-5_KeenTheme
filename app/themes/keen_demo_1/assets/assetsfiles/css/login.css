@@ -1,0 +1,117 @@
+body{
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.frontend-form{
+	padding: 50px 0;
+}
+
+.frontend-form form{
+    border-top: 1px solid #eaecef;
+    border-right: 1px solid #eaecef;
+    border-left: 1px solid #eaecef;
+
+    background-color: #f6f8fa;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.frontend-form .form-icon{
+    text-align: center;
+    background-color: #5891ff;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 40px;
+    line-height: 90px;
+}
+
+.frontend-form .item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+
+.frontend-form .login-account{
+    /*border-radius: 30px;*/
+    padding: 10px 20px;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    background-color: #5891ff;
+    border: none;
+    color: white;
+    margin-top: 25px;
+}
+
+.frontend-form .password-reset-account{
+    /*border-radius: 30px;*/
+    padding: 10px 20px;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    background-color: #5891ff;
+    border: none;
+    color: white;
+    margin-top: 25px;
+}
+
+.frontend-form .social-media{
+    border-bottom: 1px solid #eaecef;
+    border-right: 1px solid #eaecef;
+    border-left: 1px solid #eaecef;
+
+    max-width: 400px;
+    background-color: #f6f8fa;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #9fadca;
+    border-top: 1px solid #dee9ff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.frontend-form .social-icons{
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.frontend-form .social-icons a{
+    font-size: 23px;
+    margin: 0 3px;
+    color: #5691ff;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    display: inline-block;
+    height: 45px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 45px;
+}
+
+.frontend-form .social-icons a:hover{
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+@media (max-width: 576px) {
+    .frontend-form form{
+        padding: 50px 20px;
+    }
+
+    .frontend-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
